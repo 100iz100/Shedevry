@@ -1,0 +1,419 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,700i,900&display=swap');
+@media (max-width: 768px){
+.navbar-brand{
+	float: none;
+}
+div.navbar-header {
+	text-align: center;
+}
+.myNav{
+	text-align: center;
+}
+body{
+	float: none;
+}
+#navBarText{
+	display: inline-block;
+	float: none;
+	padding-right: 0;
+}
+.myClass {
+	text-align: center;
+}
+}
+@media (min-width: 992px){
+	
+}
+
+.header{
+	background-color:#333333;
+}	
+#wrapper{
+	border-image: url(../Images/Venum logo.png) no-repeat 0 0;
+}
+
+#contactform .btn:hover {
+  background: rgba(9,8,77,0.7);
+}
+
+#map-canvas {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 15px;
+  border: 2px solid #fff;
+}
+
+#map-container{
+    height: 500px;
+    width: 500px;
+}
+
+.navbar {
+	background: #333333;
+	margin-bottom: 0;
+	border: 0;
+	border-radius: 0;
+}
+.getListedToday{
+	color: white;
+	background-color: #fe2232;
+}
+.psevdoImg {
+	margin-top: 45px; 
+}
+
+.psevdoImg1 {
+	height: 535px;
+	position: relative;
+}
+.wrap_man_wom {
+	position: absolute;
+	bottom: 0;
+
+}
+/*Кнопка LoadMore---------------*/
+.LoadMore{
+	margin-bottom: 50px;
+	margin-top: 30px;
+	text-align: center;
+	
+}
+.LoadMore>a {
+	text-decoration: none;
+	background: white;
+	color: gray;
+	padding: 10px 62px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	text-transform: capitalize;
+	/*border: 1px solid gray;*/
+	box-shadow: 0 0 0 1px #e4e4e4;
+}
+
+/*-----------------классы кнопок-----------------------------*/
+.blackButton {
+	background-color: #333333;
+	color: gray;
+}
+
+.redButton {
+	background-color: red;
+	color: white;
+}
+/*h1 {
+	color: white;
+	padding-top: 50px;
+}*/
+/*вставка псевдоэлем man и woman*/
+/*.psevdoImg{
+	position: relative;
+}*/
+/*.psevdoImg:before {
+	content: "";
+	background-image: url('../Images/Man.png');
+    background-size: 180px 180px; 
+	height: 30px;
+	width:20px;
+	position: absolute;
+	top: 70px;
+	left: 7px;
+}*/
+
+.headH{
+	background: #333333;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	padding-top: 50px;
+	text-align: center;
+}
+.headH>strong {
+	font-weight: bold;
+}
+.headH>h1 {
+	padding-bottom: 50px;
+}
+
+.point {
+	color: red;
+}
+.navbar-default .navbar-nav>.active>a{
+	background-color:transparent;
+	color: red;
+}
+.navbar-default .navbar-brand {
+	font-family: 'Lato', sans-serif;
+	font-size: 32px;
+	padding-right: 250px;
+	color: #fff;
+	font-weight: bold ;
+}
+#navBarText {
+	color: white;
+}
+
+
+/*.imgSize {
+	min-height: 210px;
+	min-width: 350px;
+}*/
+.color{
+	background-color: #f4f4f4;
+}
+/*------------------классы концертных афиш-----------*/
+.titleNews{
+	font-size: 24px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+#profile {
+	background: lightgray;
+}
+.wrapContentus {
+	box-sizing: border-box;
+	margin-left: 8px;
+	margin-right:  9px;
+	position: relative;
+	background-color: white;
+	box-shadow: 0 0 0 1px #e4e4e4;
+	width: 350px;
+	/*padding-left: 15px;
+	padding-right: 15px;*/
+}
+
+.wrapContentus>ul{
+	list-style: none;
+}
+/*Псевдоэлементы иконок: FB,сердце и оранжева*/
+.firstLittleIcon{
+	content: "";
+	position: absolute;
+	background: url('../images/Spraits.png')no-repeat -4px -5px ;
+	border-radius: 50%;
+	width: 30px;
+	height:30px;
+	top: 162px;
+	left: 10px;
+}
+.secondLittleIcon{
+	content: "";
+	position: absolute;
+	background: url('../images/Spraits.png')no-repeat -167px -10px ; 
+	width: 30px;
+	height:30px;
+	top: 165px;
+	right: 7px;
+}
+
+.InscriptionsBetweenIcon{
+	position: absolute;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	top: 165px;
+	right: 54px;
+}
+
+/*#TrainingEN:before {
+	content: "";
+	width: 30px;
+	height:30px;
+	background: url('../images/Spraits.png')no-repeat -4px -5px ;
+	position: absolute;
+	top: 162px;
+	left: 12px;
+}
+
+#TrainingEN:after {
+	content: "";
+	width: 30px;
+	height:28px;
+	background: url('../images/Spraits.png')no-repeat -167px -10px ;
+	position: absolute;
+	top: 165px;
+	right: 12px;
+	
+}
+
+#BandWorkshop:before {
+	content: "";
+	width: 30px;
+	height:30px;
+	background: url('../images/Spraits.png')no-repeat -4px -5px ;
+	position: absolute;
+	top: 162px;
+	left: 12px;
+}
+
+#BandWorkshop:after {
+	content: "";
+	width: 30px;
+	height:28px;
+	background: url('../images/Spraits.png')no-repeat -167px -10px ;
+	position: absolute;
+	top: 165px;
+	right: 12px;
+	
+}*/
+
+/*изображение мужчины и женщины с процентами*/
+.man_icon{
+	float:left;
+	padding-left: 50px;
+	text-decoration: none !important;
+	color: gray;
+	position: relative;
+	background-color: #f7f7f7; 
+	padding-right: 27px;
+}
+.man_icon:before {
+	content: "";
+	background: url(../Images/Man.png) no-repeat -76px 1px;
+	position: absolute;
+	top: 7px;
+	left: 18px;
+	width: 25px;
+	min-height: 50px;
+
+}
+
+.woman_icon {
+	float:right;
+	padding-left: 50px;
+	text-decoration: none !important;
+	color: gray;
+	position: relative;
+	background-color: #f7f7f7;
+	margin-left: 5px; 
+	padding-right: 20px;
+}
+.woman_icon:before {
+	content: "";
+	background: url(../Images/woman.png) no-repeat -76px 1px;
+	position: absolute;
+	top: 7px;
+	left: 18px;
+	width: 25px;
+	height: 50px;
+
+}
+.num {
+	font-size: 30px;
+	padding: 0;
+	margin:0;  
+}
+
+.perc{
+	font-size: 18px;
+	padding: 0;
+	margin:0;
+}
+
+.male,.female {
+	display: block; 
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.main_text_hotEvent{
+	height: 70px;
+	overflow: hidden;
+}
+ /*footer navigations---------------------*/
+.navbar-default .navbar-nav>.active>a{
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: lightgray;
+}
+.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover  {
+    background-color: #333333;
+}
+/*------copyright & sprites---------------*/
+.footer {
+	position: relative;
+	background:#333;
+}
+.line{
+	position: relative;
+}
+.line:before {
+	content: "";
+	width: 100%;
+	height:1px;
+	background: #272727;
+	
+	position: absolute;
+	top: 0;
+	/*right: 0;*/
+}
+
+.copyright { 
+	padding-top: 10px;
+}
+.copyright>p {
+	display: inline-block;
+	color: lightgray;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+.color_write{
+	color: white
+}
+
+.spraitsDad{
+	padding-top: 10px;
+}
+
+.spraitsDad li{
+	display: inline-block; 
+	padding-right: 23px;
+}
+
+.spraitsDad li a{
+	width: 16px;
+	height: 18px;
+	display: block;
+	background: url('../images/Spraits.png')no-repeat -195px -10px ;
+	transition: background 1s ease;
+	position: relative;
+	}
+.spraitsDad li+li a{
+	background-position: -358px -14px;
+}
+.spraitsDad li+li+li a{
+	background-position: -222px -12px;
+}
+.spraitsDad li+li+li+li a{
+	background-position: -255px -14px;
+}
+.spraitsDad li+li+li+li+li a{
+	background-position: -285px -12px;
+}
+.spraitsDad li+li+li+li+li+li a{
+	background-position: -323px -12px;
+}
+
+.spraitsDad li:hover a{
+	background-position: -207px -10px;
+}
+
+.spraitsDad li+li:hover a{
+	background-position:  -372px -14px;
+}
+
+.spraitsDad li+li+li:hover a{
+	background-position: -239px -12px;
+}
+
+.spraitsDad li+li+li+li:hover a{
+	background-position: -269px -14px;
+}
+
+.spraitsDad li+li+li+li+li:hover a{
+	background-position: -304px -12px;
+}
+.spraitsDad li+li+li+li+li+li:hover a{
+	background-position: -340px -12px;
+}

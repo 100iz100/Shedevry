@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="Style/main.css">
+		<title>Project_B</title>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header myNav">
+		    	 <a class="navbar-brand erer" id="navBarText" href="#">STE<strong class="point">.</strong>AM</a>
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		     
+		    </div>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    
+		    <div class="collapse myClass navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+		        <li><a href="#">Get Started</a></li>
+		        <li><a href="#">How It Works</a></li>
+		        <li><a href="#">Get Started</a></li>
+		        <li><a href="#">Support</a></li>
+		      </ul>
+
+		      <form class="navbar-form navbar-left">
+		        <div class="form-group">
+		        <button type="submit" class="btn btn-default blackButton">Login/Signup</button>
+		        <button type="submit" class="btn btn-default redButton" class="getListedToday">Get Listed Today</button>
+		      </form>
+		     
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	
+
+		<div class="container-fluid headH">
+			<h1>Find the <strong>next event</strong> you'll want <strong>to attend</strong></h1>
+		</div>
+
+		<!-- <div id="map-canvas"> -->
+    
+<!--Google Maps API-->
+<!-- 		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA&amp;sensor=true"></script></div> -->
+	<div>        
+		  <div style="border: 1px solid red;">
+		      <h4 class="h4">Find Us at Google Map</h4>               
+		  </div>
+		  <div id="map-container">
+		    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		  </div>     
+	</div>
+
+	<!-- list of establishments -->
+	
+	
+<!-- <div class="container-fluid row-no-gutter">	 -->
+	<div class="container">
+		<div class="row">
+		<ul class="nav nav-tabs" role="tablist">
+			<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Hot Events</a></li>
+			<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Trending Events</a></li>
+		
+			<li>
+			<!-- <form action="#" method="post"> -->
+				<div class="form-row">
+					<label for="validationDefault03"></label>
+					      <input type="text" class="form-control"  placeholder="Your location" required>
+					<!-- <input type="text" id="login"  placeholder="Act Big! Ultimate Music Festival"> -->
+					
+					<!-- <input type="text" id="login" required> -->
+					<!-- <div class="col-md-6 mb-3"> -->
+					      <label for="validationDefault03"></label>
+					      <input type="text" class="form-control"  placeholder="Your location" required>
+				    <!-- </div> -->
+				</div>
+			<!-- </form> -->
+			</li>
+		</ul>
+<!-- 
+	<div class="container">
+		<div class="row"> -->
+			<div class="tab-content">
+			<div role="tabpanel" class="tab-pane active" id="home">
+				
+			  		<div class="col-xs-12 col-sm-6 col-md-4">
+			  			<div class="wrapContentus">
+									<img class="img-responsive imgSize" src="Images/img1.png"  alt="Act_Big">
+							  	
+							  		<div class="textBlock">
+							  			<h2 class="titleNews">Act Big! Ultimate Music Festival</h2>
+
+							  			<p>Pattichion Municipal Amphitheater</p>
+							  			<p class="faded_text">Nikolaou G. Dimitriou Street , Larnaca, 6031, Cyprus</p>
+
+										<p class="main_text_hotEvent">An evening of bowling by geeks for geeks. Nothing more, nothing less (adorn bowling shirts — funny shoes provided) Follow @TeamLebowski or #GeekBowling on Twitter for up to the minute news...
+										Date: 22 August 2013 (Thursday) Time: 6:30pm for a 7:15pm start Venue: Elephant & Castle Superbowl - First Floor, Elephant & Castle Shopping Centre - SW1 6TE Tube: Elephant & Castle (Northern Line) http://www.metacafe.com/watch/978697/the_big_lebowski_jesus_quintana/ Cost: £11.95 payable via PayPal ...which includes shoe hire, x2 games of bowling plus loads of geeky fun guaranteed! Dees / @cyberdees & Peter / @peter_oneill *** This is a non sponsored event. You are all the sponsors by simply coming along. Feel free to bring along cool schwag to share with the rest of the community. ***
+
+										</p>
+					  			</div>
+									
+									<a class="man_icon" href="#">
+										<span class="num">57</span>
+										<span class="perc">%</span>
+										<span class="male">male</span>
+									</a>
+									<a class="woman_icon" href="#">
+										<span class="num">43</span>
+										<span class="perc">%</span>
+										<span class="female">female</span>
+									</a>
+			  			</div>
+			  		</div>
+					
+					<div class="col-xs-12 col-sm-6 col-md-4 ">
+							<div class="wrapContentus">
+								
+									<img class="img-responsive imgSize"  src="Images/img2.png"  alt="Summer_Art_Club">
+
+
+									<div class="textBlock">
+										<h2 class="titleNews">Summer Art Club - Week 1/3</h2>
+
+										<p>Fun Factory Wildeshausen</p>
+							  			<p class="faded_text">Am Umspannwerk 7, Wildeshausen, 27793, Germany</p>
+										
+										
+										<p class="main_text_hotEvent">Join us for creative holiday activities - this week with Ashley & Letty! Let your 8-13 year olds to join to help burn some of that pent-up creative energy on our fun artist led workshops. You can book all three days, or just one at a time...
+										
+										and this summer you can also book all three weeks (30 July - 1 August, 13 - 15 August and 27 - 29 August) for just £100! £40 per three-day week or £15 a day.  Please wear old clothes and remember your packed lunch! All days run from 11am until 3pm. To book, either call the gallery on 023 9277 8080, email info@aspex.org.uk or book here at Eventbrite. PS - If you want to avoid parking in the Gunwharf Quays car park, remember we have drop off spaces right outside the gallery, just ask for details!
+
+
+										</p>
+									
+									<a class="man_icon" href="#">
+										<span class="num">57</span>
+										<span class="perc">%</span>
+										<span class="male">male</span>
+									</a>
+									<a class="woman_icon" href="#">
+										<span class="num">43</span>
+										<span class="perc">%</span>
+										<span class="female">female</span>
+									</a>
+								</div>
+						</div>
+					</div>
+
+					<div class="clearfix visible-sm-block "></div>
+
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="wrapContentus">
+									<img class="img-responsive imgSize" src="Images/img3.png"  alt="Bocca_Foodbar">
+									
+										<div class="textBlock">
+										<h2 class="titleNews">Bocca Foodbar @ Vama Veche</h2>
+
+										
+										<p>Pattichion Municipal Amphitheater</p>
+							  			<p class="faded_text">Nikolaou G. Dimitriou Street , Larnaca, 6031, Cyprus</p>
+										
+										
+										<p class="main_text_hotEvent">ERLEBT 3 TAGE LANG STRANDFEELING & PARTYSPAß PUR! BEACH PARTY OPENING WIR ERÖFFNEN DIE PARTYSAISON! Seid Ihr bereit für die heißeste Beachparty des Jahres ... 
+
+
+										? ... dann freut Euch auf die sündigste Partywoche, die die Fun Factory je erlebt hat! Ganz nach dem Motto SOMMER, SONNE, SEX & STRAND, gibt es 3 Tage lang Strandfeeling pur, heiße Körper, die leckersten COCKTAILKREATIONEN, leckere GRILLSPECIALS in unserem Sommergarten und viele weitere Specials & Überraschungen! In dieser Woche zählt nur eins ... Party, Drinks, Sünde und Leidenschaft pur! Und wer meint das ist alles, der hat sich geirrt! An allen Tagen mit ... • RIESEN Outdoor Schaum Area • Sexy Baywatch Girls • GRATIS Spritzpistolen • Wasserbomben Schlacht im Outdoor Bereich • Eis for Free • Sexy Bodydrinking • Topless Girls in Glaspools • Sexy Beachboys • Trichtersaufen • Sangria aus Eimern BEACH PARTY OPENING SPECIAL!!! Wenn Du bis 24 Uhr die Fun Factory betrittst, zahlst Du NUR 99 CENT EINTRITT und für alle offenen Getränke* bis 1 Uhr UNGLAUBLICH GÜNSTIGE 99 CENT! COCKTAIL SPECIAL Die ganze Nacht lang ALLE COCKTAILS NUR 3 EURO! DRINKS 4 SUMMER An allen Tagen bekommt Ihr die Trenddrinks des Sommers für unglaublich günstige 2 EURO! VODKA ENERGY • BACARDI RAZZ SPRITE • MALIBU MARACUJA • LIKOR 43 MILCH ............................................................................ TICKET: Bis 24 Uhr NUR 99 CENT, danach 6 Euro! EINLASS: Ab 16 Jahren DOORS OPEN: 22 Uhr
+
+										</p>
+									
+
+									<a class="man_icon" href="#">
+										<span class="num">57</span>
+										<span class="perc">%</span>
+										<span class="male">male</span>
+									</a>
+									<a class="woman_icon" href="#">
+										<span class="num">43</span>
+										<span class="perc">%</span>
+										<span class="female">female</span>
+									</a>
+								</div>
+						</div>
+					</div>
+
+					<div class="clearfix visible-md-block "></div>
+			  		
+				  	<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="wrapContentus">
+									<img class="img-responsive" src="Images/img4.png"  alt="FaringdonCommunitySports">
+
+									<div class="textBlock">	
+								  		<h2 class="titleNews">Faringdon Community Sports College - Summer - Week 2</h2>
+								  		<p>Culture Club Revelin</p>
+										<p class="faded_text">Sv. Dominika 3, Dubrovnik, 20 000, Croatia</p>
+
+										<p class="main_text_hotEvent">Culture Club Revelin predstavio je novi ljetni program ''DREAMGIRLS IN REVELIN'' U bogatom cjelovečernjem programu moći ćete uživati u vrućim plesnim točkama zgodnih...
+
+	 									plasačica i plesača. Najveću atrakciju zasigurno će izazvati performance u čašama za šampanjac, te kupanje u jacuzziju. A ovaj već zanimljiv program, upotpunit će i ples na svili koji svakoga ostavi bez daha. Fire i laser show, te mnoga druga iznenađenja su dio bogatog cjelovečernjeg programa u kojemu podjednako uživaju i dečki i cure. Cijena ulaznice je 69kn. VIP 120kn. Rezervacije i informacije: +385 20 436 010 +385 98 533 531
+										</p>
+							  		
+
+									<a class="man_icon" href="#">
+										<span class="num">57</span>
+										<span class="perc">%</span>
+										<span class="male">male</span>
+									</a>
+									<a class="woman_icon" href="#">
+										<span class="num">43</span>
+										<span class="perc">%</span>
+										<span class="female">female</span>
+									</a>
+							  	</div>
+			  				</div>
+						</div>
+					<div class="clearfix visible-sm-block"></div>
+
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="wrapContentus">
+									<img class="img-responsive" src="Images/img5.png"  alt="TrainingEN">
+									
+										<div class="textBlock">
+										<h2 class="titleNews">Training EN - OpenERP 7.0 Functional Training</h2>
+										<p>Boulevard Barcelona</p>
+							  			<p class="faded_text">La Rambla 27, Barcelona, 08002, Spain</p>
+										
+										
+										<p class="main_text_hotEvent">THE BOILER ROOM is coming to BCN The Boiler Room, un nuevo concepto de fiesta que aterriza en Barcelona, una noche fresca y muy energética con una programación de Dj's de ...
+
+
+										lujo que crearán un ambiente festivo y de mucho desenfreno, acompañado de actuaciones en directo y de Performance Shows. MAIN ROOM: HOUSE MUSIC / LIVE ACTS / PERFORMANCE LINEUP: DJ MJNC / JAY SERANO ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● LISTA FACEBOOK: Entrada gratis hasta la 2:30 PUERTA: Chicas gratis hasta las 2:00 Entrada 10€ + 1 copa Entrada 15€ + 2 copas Para apuntarse escribe tu nombre y apellidos + número de acompañantes (máximo 2) en el muro del evento. Os recomendamos venir lo más temprano posible si están en lista para evitar colas. La lista se cierra antes de media noche! ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● Las Ramblas, 27 08002 – Barcelona L3 – Drassanes (a 200 metros) L3 – Liceu (a 250 metros) LNKS: http://www.facebook.com/boulevardbarcelona http://www.facebook.com/boulevardbarcelona/events
+
+
+										</p>
+														
+									<!-- <div class="wrap_man_wom"> -->
+										<a class="man_icon" href="#">
+											<span class="num">31</span>
+											<span class="perc">%</span>
+											<span class="male">male</span>
+										</a>
+										<a class="woman_icon" href="#">
+											<span class="num">69</span>
+											<span class="perc">%</span>
+											<span class="female">female</span>
+										</a>
+									</div>
+							</div>					
+					</div>
+
+					<div class="col-xs-12 col-sm-6  col-md-4">
+							<div class="wrapContentus">
+									<img class="img-responsive" src="Images/img6.png"  alt="BandWorkshop">
+									
+									<div class="textBlock">
+										<h2 class="titleNews">Band Workshop with Artists in Residence Super Tenants</h2>
+										<p>Culture Club Revelin</p>
+							  			<p class="faded_text">Sv. Dominika 3, Dubrovnik, 20 000, Croatia</p>
+										
+										
+										<p class="main_text_hotEvent">Culture Club Revelin predstavio je novi ljetni program ''DREAMGIRLS IN REVELIN'' U bogatom cjelovečernjem programu moći ćete uživati u vrućim plesnim točkama zgodnih...
+
+	 									plasačica i plesača. Najveću atrakciju zasigurno će izazvati performance u čašama za šampanjac, te kupanje u jacuzziju. A ovaj već zanimljiv program, upotpunit će i ples na svili koji svakoga ostavi bez daha. Fire i laser show, te mnoga druga iznenađenja su dio bogatog cjelovečernjeg programa u kojemu podjednako uživaju i dečki i cure. Cijena ulaznice je 69kn. VIP 120kn. Rezervacije i informacije: +385 20 436 010 +385 98 533 531
+
+										</p>
+									
+
+									<a class="man_icon" href="#">
+										<span class="num">57</span>
+										<span class="perc">%</span>
+										<span class="male">male</span>
+									</a>
+									<a class="woman_icon" href="#">
+										<span class="num">43</span>
+										<span class="perc">%</span>
+										<span class="female">female</span>
+									</a>
+								</div>	
+							</div>
+					</div>
+
+					<!-- <div class="clearfix visible-sm-block  visible-md-block"></div> -->
+				
+			</div> 
+		
+
+<!-- tab2 -->
+			<div role="tabpanel" class="tab-pane" id="profile">
+					
+					<div class="row">
+						  <div class="col-sm-6 col-md-4">
+						    <div class="thumbnail">
+						      <img src="Images/img6.png"  alt="BandWorkshop">
+						      <div class="caption">
+						        <h3>Band Workshop with Artists in Residence Super Tenants</h3>
+						        <p>Culture Club Revelin</p>
+						        <p>Culture Club Revelin predstavio je novi ljetni program ''DREAMGIRLS IN REVELIN'' U bogatom cjelovečernjem programu moći ćete uživati u vrućim plesnim točkama zgodnih...
+
+	 							plasačica i plesača. Najveću atrakciju zasigurno će izazvati performance u čašama za šampanjac, te kupanje u jacuzziju. A ovaj već zanimljiv program, upotpunit će i ples na svili koji svakoga ostavi bez daha. Fire i laser show, te mnoga druga iznenađenja su dio bogatog cjelovečernjeg programa u kojemu podjednako uživaju i dečki i cure. Cijena ulaznice je 69kn. VIP 120kn. Rezervacije i informacije: +385 20 436 010 +385 98 533 531
+
+						        	<a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a>
+						        </p>
+						      </div>
+						    </div>
+						  </div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6   col-md-4 psevdoImg">
+						<!-- <div class="row"> -->
+							<div class="col-md-10">
+								<!-- <div class="row"> -->
+									<img class="img-responsive" src="Images/img4.png"  alt="BandWorkshop">
+									<h2 class="titleNews">Band Workshop with Artists in Residence Super Tenants</h2>
+									
+								<!-- </div> -->
+							</div>
+						<!-- </div> -->
+					</div>
+					<div class="col-xs-12 col-sm-5  col-sm-offset-2 col-md-offset-0 col-md-4 psevdoImg">
+						<!-- <div class="row"> -->
+							<div class="col-md-10 col-md-offset-1">
+								<!-- <div class="row"> -->
+									<img class="img-responsive" src="Images/img5.png"  alt="BandWorkshop">
+									<h2>Band Workshop with Artists in Residence Super Tenants</h2>
+								<!-- </div> -->
+							</div>
+						<!-- </div> -->
+					</div>
+					<div class="col-xs-12 col-sm-5  col-md-offset-0 col-md-4 psevdoImg">
+						<!-- <div class="row"> -->
+							<div class="col-md-10 col-md-offset-2">
+								<!-- <div class="row"> -->
+									<img class="img-responsive" src="Images/img6.png"  alt="BandWorkshop">
+									<h2>Band Workshop with Artists in Residence Super Tenants</h2>
+								<!-- </div> -->
+							</div>
+						<!-- </div> -->
+					</div>
+					<div class="col-xs-12 col-sm-5  col-sm-offset-2 col-md-offset-0 col-md-4 psevdoImg">
+							<!-- <div class="row"> -->
+								<div class="col-md-10">
+									<!-- <div class="row"> -->
+										<img class="img-responsive" src="Images/img4.png"  alt="FaringdonCommunitySports">	
+							  			<h2>Faringdon Community Sports College - Summer - Week 2</h2>
+							  		<!-- </div> -->
+			  					</div>
+			  				<!-- </div> -->
+			  		</div>
+
+					<div class="clearfix visible-sm-block"></div>
+
+					<div class="col-xs-12 col-sm-5 col-md-4 psevdoImg">
+						<!-- <div class="row"> -->
+							<div class="col-md-10 col-md-offset-1">
+								<!-- <div class="row"> -->
+									<img class="img-responsive" src="Images/img5.png"  alt="TrainingEN">
+									<h2>Training EN - OpenERP 7.0 Functional Training</h2>
+								<!-- </div> -->
+							</div>					
+						<!-- </div> -->
+					</div>
+
+					<div class="col-xs-12 col-sm-5  col-sm-offset-2 col-md-offset-0 col-md-4 psevdoImg">
+						<!-- <div class="row"> -->
+							<div class="col-md-10 col-md-offset-2">
+								<!-- <div class="row"> -->
+									<img class="img-responsive" src="Images/img6.png"  alt="BandWorkshop">
+									<h2>Band Workshop with Artists in Residence Super Tenants</h2>
+								<!-- </div> -->
+							</div>
+						<!-- </div> -->
+					</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-12">
+		<div class="LoadMore">
+			<a href="#">Load More</a>
+		</div>
+	</div>
+	</div>
+
+</div>
+
+<footer id="footer" class="footer"><!--Footer-->
+		<nav class="navbar navbar-default footerPsevdo">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      
+		    </div>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="container line">
+			    <div class="collapse myClass   navbar-collapse" id="bs-example-navbar-collapse-2">
+			      <ul class="nav navbar-nav">
+			        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+			        <li><a href="#">About eco</a></li>
+			        <li><a href="#">How it works</a></li>
+			        <li><a href="#">Industries</a></li>
+			        <li><a href="#">Features</a></li>
+			        <li><a href="#">Pricing</a></li>
+			        <li><a href="#">Faq's</a></li>
+			        <li><a href="#">Privacy policy</a></li>
+			        <li><a href="#">Blog</a></li>
+			        <li><a href="#">Terms of service</a></li>
+			      </ul>		     	     
+			    </div><!-- /.navbar-collapse -->
+			
+				<div class="copyright">
+					<p>© 2013 <span class="color_write">steam</span>. All Rights Reserved. Design by <span class="color_write">woof</span>.</p>
+					<ul class="spraitsDad"> 
+
+						<li class="social"><a class="spraits " href="#">1</a></li>
+						<li class="social"><a class="spraits " href="#"></a></li>
+						<li class="social"><a class="spraits " href="#"></a></li>
+						<li class="social"><a class="spraits " href="#"></a></li>
+						<li class="social"><a class="spraits " href="#"></a></li>
+						<li class="social"><a class="spraits " href="#"></a></li>
+					</ul>
+				</div>
+			</div>	
+		</div><!-- /.container-fluid -->
+		</nav>
+	            
+</footer><!--/Footer-->
+
+<script>
+	$('#myTabs a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+});
+
+$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+  e.target // newly activated tab
+  e.relatedTarget // previous active tab
+})
+</script>
+
+</body>
+</html>

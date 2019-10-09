@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+@media (max-width: 768px){
+.navbar-brand{
+	float: none;
+}
+.map{
+		display: none;
+	}
+.form-control.firstborn{
+	margin-left: 0px; 
+}
+div.navbar-header {
+	text-align: center;
+}
+.myNav{
+	text-align: center;
+}
+body{
+	float: none;
+}
+#navBarText{
+	display: inline-block;
+	float: none;
+	padding-right: 0;
+}
+.myClass {
+	text-align: center;
+}
+}
+@media (min-width: 992px){
+	
+}
+
+.header{
+	background-color:#333333;
+}	
+#wrapper{
+	border-image: url(../Images/Venum logo.png) no-repeat 0 0;
+}
+
+#contactform .btn:hover {
+  background: rgba(9,8,77,0.7);
+}
+.form-control.firstborn{
+	/*margin-left: 50px; */
+}
+
+.map{
+  border-bottom: 2px solid black;
+}
+
+.navbar {
+	background: #333333;
+	margin-bottom: 0;
+	border: 0;
+	border-radius: 0;
+}
+.getListedToday{
+	color: white;
+	background-color: #fe2232;
+}
+.psevdoImg {
+	margin-top: 45px; 
+}
+
+.psevdoImg1 {
+	height: 535px;
+	position: relative;
+}
+.wrap_man_wom {
+	position: absolute;
+	bottom: 0;
+
+}
+
+
+
+
+/*Кнопка LoadMore---------------*/
+.LoadMore{
+	margin-bottom: 50px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.LoadMore>a {
+	text-decoration: none;
+	background: white;
+	color: gray;
+	cursor: pointer;
+	padding: 10px 62px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	text-transform: capitalize;
+	border: 1px solid lightgray;
+	/*border-width: 2px solid none;*/
+   
+    border-radius: 6px;
+    background: linear-gradient(#eeecea, #fefefe) #eeecea;
+    transition: 0.2s;
+	box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.49);
+
+}
+.LoadMore>a:hover {
+	background: linear-gradient(#eeaaaa, #fefeee) #eeecee;
+}
+/*-----------------классы кнопок-----------------------------*/
+
+.blackButton {
+	background-color: #333333;
+	color: gray;
+}
+
+.redButton {
+	background-color: red;
+	color: white;
+}
+/*h1 {
+	color: white;
+	padding-top: 50px;
+}*/
+/*вставка псевдоэлем man и woman*/
+/*.psevdoImg{
+	position: relative;
+}*/
+/*.psevdoImg:before {
+	content: "";
+	background-image: url('../Images/Man.png');
+    background-size: 180px 180px; 
+	height: 30px;
+	width:20px;
+	position: absolute;
+	top: 70px;
+	left: 7px;
+}*/
+
+.headH{
+	background: #333333;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-size: 38px;	
+	padding-top: 50px;
+	text-align: center;
+}
+.headH>h1>strong {
+	font-weight: 800;
+	font-family: 'Lato', sans-serif;
+}
+.headH>h1 {
+	padding-bottom: 50px;
+}
+.headH>h1>i{
+	font-weight: 100;
+	font-family: 'Lato', sans-serif;
+}
+.point {
+	color: red;
+}
+.navbar-default .navbar-nav>.active>a{
+	background-color:transparent;
+	color: red;
+}
+.navbar-default .navbar-brand {
+	font-family: 'Lato', sans-serif;
+	font-size: 32px;
+	padding-right: 250px;
+	color: #fff;
+	font-weight: bold ;
+}
+#navBarText {
+	color: white;
+}
+
+
+.imgSize {
+	width: 100%;
+}
+
+.img_wrp:before{
+	content: "";
+	position: absolute;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.27) 0%, rgba(246,246,246,0.39) 57%, rgba(15,6,15,0.53) 100%);
+	/*background: rgba(0,0,0,1);*/
+	width: 100%;
+	height: 100%
+}
+
+.color{
+	background-color: #f4f4f4;
+}
+.map {
+	/*.img: url('../images/map.png') no-repeat 0/cover;*/
+	width: 100%;
+	
+}
+/*tabbarborder*/
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: pointer;
+    background-color: #fff;
+     border: 0px solid; 
+
+    border-bottom: 3px solid red;
+}
+
+.nav-tabs {
+	background-color: white;
+}
+/*button возле таб бара
+.firstborn{
+	
+	padding-right: 275px;
+}
+/*------------------button calendar----------------*/
+.buttonCalendar{
+	margin-left: 15px;
+	padding:6px 19px;
+	background: url('../images/Spraits1.png')no-repeat -6px -7px;
+}
+#date{
+	display: none;
+}
+.buttonCalendar:
+/*.calendar{
+	padding: 16px;
+	background: url('../images/Spraits1.png')no-repeat -6px -7px ;
+
+}
+*/
+/*------------------классы концертных афиш-----------*/
+.nav-tabs {
+    margin-right: 20px;
+    margin-left: 22px;
+}
+.titleNews{
+	font-size: 24px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+
+}
+#profile {
+	background: lightgray;
+}
+.wrapContentus {
+	box-sizing: border-box;
+	margin-left: 8px;
+	margin-right:  9px;
+	margin-top: 45px;
+	position: relative;
+	background-color: white;
+	box-shadow: 0 0 0 1px #e4e4e4;
+	
+}
+/*.wrapContentus:after{
+	content: '';
+	display: block;
+}
+.wrapContentus:after,.fm{
+	height: 80px;
+}*/
+
+.wrapContentus>ul{
+	list-style: none;
+}
+/*Псевдоэлементы иконок: FB,сердце и оранжева*/
+.img_wrp{
+	position: relative;
+}
+.img_wrp ul {
+	position: absolute;
+	bottom: 15px;
+    width: 100%;
+}
+.img_wrp ul li{
+	display: inline-block;
+	position: relative;
+}
+.img_wrp ul li:last-child{
+	width: 30px;
+	height: 30px;
+	top:-6px;
+	float: right;
+	margin-right: 3%;
+}
+
+.textBlock{
+	height: 245px;
+	padding: 26px 10px 80px 10px;
+}
+
+.textBlock>.faded_text{
+	padding-bottom: 25px;
+	padding-top: 10px;
+}
+
+.titleNews{
+	padding-bottom: 20px;
+}
+
+.main_text_hotEvent{
+	height: 70px;
+	overflow: hidden;
+}
+.faded_text{
+	color:#b9b9b9;
+}
+.firstLittleIcon{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	padding-left: 50px;
+	position: relative;
+	text-decoration: none;
+}
+
+.firstLittleIcon:before{
+	content: "";
+	position: absolute;
+	background: url('../images/Spraits.png')no-repeat -4px -5px ;
+	border-radius: 50%;
+	width: 30px;
+	height:30px;
+	top: -6px;
+	left: 14px;
+}
+
+.secondLittleIcon{
+	position: absolute;
+	background: url('../images/Spraits.png')no-repeat -163px -6px ; 
+	width: 30px;
+	height:30px;
+	top: 0px;
+	right: 0px;
+}
+
+
+/*#TrainingEN:before {
+	content: "";
+	width: 30px;
+	height:30px;
+	background: url('../images/Spraits.png')no-repeat -4px -5px ;
+	position: absolute;
+	top: 162px;
+	left: 12px;
+}
+
+#TrainingEN:after {
+	content: "";
+	width: 30px;
+	height:28px;
+	background: url('../images/Spraits.png')no-repeat -167px -10px ;
+	position: absolute;
+	top: 165px;
+	right: 12px;
+	
+}
+
+#BandWorkshop:before {
+	content: "";
+	width: 30px;
+	height:30px;
+	background: url('../images/Spraits.png')no-repeat -4px -5px ;
+	position: absolute;
+	top: 162px;
+	left: 12px;
+}
+
+#BandWorkshop:after {
+	content: "";
+	width: 30px;
+	height:28px;
+	background: url('../images/Spraits.png')no-repeat -167px -10px ;
+	position: absolute;
+	top: 165px;
+	right: 12px;
+	
+}*/
+
+/*изображение мужчины и женщины с процентами*/
+.fm{
+	position: relative;
+}
+.fm li:first-child{
+	float: left;
+	position: relative;
+	width: 50%;
+	
+}
+.fm li:last-child{
+	float: right;
+	position: relative;
+	width: 49.9%;
+}
+.man_icon{
+	/*float:left;*/
+	padding: 15px 15px 15px 50px;
+	text-decoration: none !important;
+	color: gray;
+	position: relative;
+	background-color: #f7f7f7; 
+	display: block;
+	
+}
+.man_icon:before {
+	content: "";
+	background: url(../Images/Man.png) no-repeat -76px 1px;
+	position: absolute;
+	top: 7px;
+	left: 18px;
+	width: 25px;
+	min-height: 50px;
+
+}
+
+.woman_icon {
+	/*float:right*/;
+	padding: 15px 15px 15px 50px;
+	text-decoration: none !important;
+	color: gray;
+	position: relative;
+	background-color: #f7f7f7;
+	margin-left: 5px;
+	display: block;
+}
+.woman_icon:before {
+	content: "";
+	background: url(../Images/woman.png) no-repeat -76px 1px;
+	position: absolute;
+	top: 7px;
+	left: 18px;
+	width: 25px;
+	height: 50px;
+
+}
+.num {
+	font-size: 30px;
+	padding: 0;
+	margin:0;  
+}
+
+.perc{
+	font-size: 18px;
+	padding: 0;
+	margin:0;
+}
+
+.male,.female {
+	display: block; 
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+
+ /*footer navigations---------------------*/
+.navbar-default .navbar-nav>.active>a{
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: lightgray;
+}
+.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover  {
+    background-color: #333333;
+}
+/*------copyright & sprites---------------*/
+.footer {
+	position: relative;
+	background:#333;
+}
+.line{
+	position: relative;
+}
+.line:before {
+	content: "";
+	width: 100%;
+	height:1px;
+	background: #272727;
+	
+	position: absolute;
+	top: 0;
+	/*right: 0;*/
+}
+
+.copyright { 
+	padding-top: 10px;
+}
+.copyright>p {
+	display: inline-block;
+	color: lightgray;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+.color_write{
+	color: white
+}
+
+.spraitsDad{
+	padding-top: 10px;
+}
+
+.spraitsDad li{
+	display: inline-block; 
+	padding-right: 23px;
+}
+
+.spraitsDad li a{
+	width: 16px;
+	height: 18px;
+	display: block;
+	background: url('../images/Spraits.png')no-repeat -195px -10px ;
+	transition: background 1s ease;
+	position: relative;
+	}
+.spraitsDad li+li a{
+	background-position: -358px -14px;
+}
+.spraitsDad li+li+li a{
+	background-position: -222px -12px;
+}
+.spraitsDad li+li+li+li a{
+	background-position: -255px -14px;
+}
+.spraitsDad li+li+li+li+li a{
+	background-position: -285px -12px;
+}
+.spraitsDad li+li+li+li+li+li a{
+	background-position: -323px -12px;
+}
+
+.spraitsDad li:hover a{
+	background-position: -207px -10px;
+}
+
+.spraitsDad li+li:hover a{
+	background-position:  -372px -14px;
+}
+
+.spraitsDad li+li+li:hover a{
+	background-position: -239px -12px;
+}
+
+.spraitsDad li+li+li+li:hover a{
+	background-position: -269px -14px;
+}
+
+.spraitsDad li+li+li+li+li:hover a{
+	background-position: -304px -12px;
+}
+.spraitsDad li+li+li+li+li+li:hover a{
+	background-position: -340px -12px;
+}
+
+
+
+
+
+
